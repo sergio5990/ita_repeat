@@ -1,4 +1,4 @@
-package jd2.ref.lamda;
+package jd2.lambda;
 
 import java.util.List;
 import java.util.function.Function;
@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class LamdaDemo {
+public class LambdaDemo {
 
     void test(){
         List<Integer> result = Stream.of(1, 2, 3, 4)
